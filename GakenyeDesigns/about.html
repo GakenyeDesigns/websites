@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/bandicam 2024-02-15 10-10-47-898.jpg" type="image/x-icon">
+</head>
+<body>
+    <!-- header Section -->
+    <header>
+        <h2 class="logo">Gakenye<span>Designs</span></h2>
+        <div class="menutoggle"></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="">Projects</a></li>
+                <li><a href="">Source codes</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Body section -->
+    <section id="aboutme">
+
+        <h1>About us Page</h1>
+        
+        <div class="row">
+            <div class="col4">
+                 <img src="img/2.jpg" alt="">
+            </div>
+            <div class="col5">
+                <h3>About me</h3>
+                <p>Hi, i go by the name Gakenye.I am a programmer ,a Web developer ,a youtuber , a student and last of all an upcoming  software engineer.
+                    Currently am  a second year student in one of Kenya's biggest university pursuing a bachelor's degree in computer science. I have a youtube Channel called PROGRAMMING HUB 254 and if you haven't  subscribed please consider doing so...
+               intermsof experience i can say i've coded for the past 7 years or so and interms of projects i have done several of them some in  python,java,htmlc,css js,microsoft accces ,etc
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col6">
+               <h3>About Programming Hub 254</h3>
+               <p>Progragramming Hub 254 is a Youtube Channel which I started around 2 years ago.The channel most focuses on programming stuffs such as coding and the likes.The channel's main aim is to help people there learns coding througn the various videos which i've posted on the channel.The channel has videos for language c,c++,Html,css,js....soon i will put videos on java,python on android programming and also if you would like programming note i will add a feauture on where you will be getting notes on programming languages.Please click the button below to subscribe to my youtube channel <br>
+               <button><a href="#">&mdash;Youtube channel link&mdash;</a></button> </p>
+            </div>
+        
+            <div class="col7">
+                <img src="img/bandicam 2024-02-15 10-10-47-898.jpg" alt="">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- footer sectionfor this page -->
+    <footer class="foot">
+        <div class="row">
+            <div class="col1">
+                <h3>Important Links</h3>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="">Projects</a></li>
+                <li><a href="">Source codes</a></li>
+                <li><a href="">Contact</a></li>
+            </div>
+            <div class="col2">
+                <img src="img/bandicam 2024-02-15 10-10-47-898.jpg" alt="">
+            </div>
+            <div class="col3">
+                <h3>Reach us through</h3>
+                <p>Instagram  <span>@_Grand_Mu_fa.sa__</span></p>
+                 <p>Youtube <span>@GakenyeDesigns</span></p>
+                 <p>Email <span>Programmighub254@gnail.com</span></p>
+                 <p>Phone Number <span>+254789757457</span></p>
+                 <p>Location<span>Nyahururu</span></p>
+            </div>
+        </div>
+    </footer>
+
+
+     <!-- Menutoggle js code -->
+     <script>
+        let header = document.querySelector('header');
+        let menutoggle = document.querySelector('.menutoggle');
+        menutoggle.onclick = function(){
+            header.classList.toggle('act');
+        }
+    </script>
+</body>
+</html>
